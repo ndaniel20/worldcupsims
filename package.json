@@ -1,12 +1,12 @@
 {
-  "name": "pwa-101",
+  "name": "worldcupsims",
   "version": "1.0.0",
-  "description": "A first take to a Progressive Web App",
+  "description": "A Progressive Web App",
   "main": "server.js",
   "scripts": {
-    "server-debug": "nodemon --inspect server.js"
+    "server": "node server.js"
   },
-  "author": "daspinola",
+  "author": "ndaniel20",
   "license": "MIT",
   "dependencies": {
     "ejs": "^3.1.8",
