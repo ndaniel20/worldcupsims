@@ -22,6 +22,8 @@ const toCache = [
   "/css/world-cup.jpg",
   "/css/goal.mp3",
   "/css/whistle.mp3",
+  "https://i.imgur.com/YcAF6V9.png",
+  "https://cdn.sofifa.net/players/notfound_0_120.png"
 ];
 
 
