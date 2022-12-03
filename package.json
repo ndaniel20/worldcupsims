@@ -4,7 +4,7 @@
   "description": "A Progressive Web App",
   "main": "server.js",
   "scripts": {
-    "server": "node server.js"
+    "start": "node server.js"
   },
   "author": "ndaniel20",
   "license": "MIT",
