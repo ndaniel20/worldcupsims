@@ -1,0 +1,140 @@
+{
+    "Argentina": [
+        {
+            "player": "Álvarez",
+            "face": "https://images.fotmob.com/image_resources/playerimages/974753.png"
+        },
+        {
+            "player": "Di Maria",
+            "face": "https://images.fotmob.com/image_resources/playerimages/46509.png"
+        },
+        {
+            "player": "Messi",
+            "face": "https://images.fotmob.com/image_resources/playerimages/30981.png"
+        },
+        {
+            "player": "Allister",
+            "face": "https://images.fotmob.com/image_resources/playerimages/831489.png"
+        },
+        {
+            "player": "Fernández",
+            "face": "https://images.fotmob.com/image_resources/playerimages/1137705.png"
+        },
+        {
+            "player": "De Paul",
+            "face": "https://images.fotmob.com/image_resources/playerimages/324578.png"
+        },
+        {
+            "player": "Acuna",
+            "face": "https://images.fotmob.com/image_resources/playerimages/561187.png"
+        },
+        {
+            "player": "Otamendi",
+            "face": "https://images.fotmob.com/image_resources/playerimages/174321.png"
+        },
+        {
+            "player": "Romero",
+            "face": "https://images.fotmob.com/image_resources/playerimages/789066.png"
+        },
+        {
+            "player": "Molina",
+            "face": "https://images.fotmob.com/image_resources/playerimages/726345.png"
+        },
+        {
+            "player": "Martinez",
+            "face": "https://images.fotmob.com/image_resources/playerimages/268375.png"
+        }
+    ],
+    "Germany": [
+        {
+            "player": "Müller",
+            "face": "https://images.fotmob.com/image_resources/playerimages/116772.png"
+        },
+        {
+            "player": "Gnabry",
+            "face": "https://images.fotmob.com/image_resources/playerimages/385437.png"
+        },
+        {
+            "player": "Musiala",
+            "face": "https://images.fotmob.com/image_resources/playerimages/1156141.png"
+        },
+        {
+            "player": "Goretzka",
+            "face": "https://images.fotmob.com/image_resources/playerimages/343748.png"
+        },
+        {
+            "player": "Sané",
+            "face": "https://images.fotmob.com/image_resources/playerimages/530859.png"
+        },
+        {
+            "player": "Gündogan",
+            "face": "https://images.fotmob.com/image_resources/playerimages/178818.png"
+        },
+        {
+            "player": "Raum",
+            "face": "https://images.fotmob.com/image_resources/playerimages/806669.png"
+        },
+        {
+            "player": "Rüdiger",
+            "face": "https://images.fotmob.com/image_resources/playerimages/276738.png"
+        },
+        {
+            "player": "Süle",
+            "face": "https://images.fotmob.com/image_resources/playerimages/447084.png"
+        },
+        {
+            "player": "Kimmich",
+            "face": "https://images.fotmob.com/image_resources/playerimages/460632.png"
+        },
+        {
+            "player": "Neuer",
+            "face": "https://images.fotmob.com/image_resources/playerimages/27299.png"
+        }
+    ],
+    "Belgium": [
+        {
+            "player": "Trossard",
+            "face": "https://images.fotmob.com/image_resources/playerimages/318615.png"
+        },
+        {
+            "player": "Mertens",
+            "face": "https://images.fotmob.com/image_resources/playerimages/46104.png"
+        },
+        {
+            "player": "De Bruyne",
+            "face": "https://images.fotmob.com/image_resources/playerimages/169200.png"
+        },
+        {
+            "player": "Carrasco",
+            "face": "https://images.fotmob.com/image_resources/playerimages/354467.png"
+        },
+        {
+            "player": "Witsel",
+            "face": "https://images.fotmob.com/image_resources/playerimages/39591.png"
+        },
+        {
+            "player": "Dendoncker",
+            "face": "https://images.fotmob.com/image_resources/playerimages/424129.png"
+        },
+        {
+            "player": "Meunier",
+            "face": "https://images.fotmob.com/image_resources/playerimages/277771.png"
+        },
+        {
+            "player": "Castagne",
+            "face": "https://images.fotmob.com/image_resources/playerimages/465750.png"
+        },
+        {
+            "player": "Vertonghen",
+            "face": "https://images.fotmob.com/image_resources/playerimages/37762.png"
+        },
+        {
+            "player": "Alderweireld",
+            "face": "https://images.fotmob.com/image_resources/playerimages/160599.png"
+        },
+        {
+            "player": "Courtois",
+            "face": "https://images.fotmob.com/image_resources/playerimages/170323.png"
+        }
+    ]
+}

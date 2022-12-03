@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="js/data.js"></script>
+<script src="js/game.js"></script>
+<head>
+    <link rel="shortcut icon" href="#">
+    <link rel="manifest" href="/js/manifest.json">
+    <link rel="apple-touch-icon" href="/css/apple-touch.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#764ABC"/>
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="page-container">
+    <c class="home-button" id="homeBtn"> 
+      <img height=75px src="https://i.imgur.com/evR062H.png"> 
+    </c> 
+    <div class="page-header" style="margin-top: -76px;">
+      <div class="time" style="color: silver;font-size: 54px;">
+        <span>0'</span>
+      </div>
+    </div>
+    <div class="page-score">
+      <div class="home-team">
+        <div class="home-name"></b></b></div>
+        <div class="home-flag"><img src="" class="flag-img1"></div>
+      </div>
+      <div class="score-line">
+        <b>0-0</b>
+      </div>
+      <div class="away-team">
+        <div class="away-flag"><img src="" class="flag-img2"></div>
+        <div class="away-name"></b></b></div>
+      </div> 
+    </div>
+    <div class="main-body">
+      <div class="home-lineup">
+        <div class="lineup-label">
+          <b><u>Lineup XI</u></b>
+        </div>
+        <ol>
+          <%for(let i=home.length-1; i > -1; i--){%> 
+            <li><%=home[i].player%></li>
+          <%}%> 
+        </ol>
+      </div>
+      <div class="game-events" id="timeline">
+        <div class="play-button-outer">
+            <div class="play-button"></div>
+        </div>
+      </div>
+      <div class="away-lineup">
+        <div class="lineup-label">
+          <b><u>Lineup XI</u></b>
+        </div>
+        <ol>
+          <%for(let i=away.length-1; i > -1; i--){%> 
+            <li><%=away[i].player%></li>
+          <%}%> 
+        </ol>
+      </div>
+    </div>
+  </div>
+  <script src="/js/pwa.js"></script>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "pwa-101",
+  "version": "1.0.0",
+  "description": "A first take to a Progressive Web App",
+  "main": "server.js",
+  "scripts": {
+    "server-debug": "nodemon --inspect server.js"
+  },
+  "author": "daspinola",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}

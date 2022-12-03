@@ -1,0 +1,43 @@
+<html>
+  <script src="js/config.js"></script>
+  <head>
+    <link rel="manifest" href="/js/manifest.json">
+    <link rel="apple-touch-icon" href="/css/apple-touch.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#764ABC"/>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="page-container">
+        <c class="home-button" id="homeBtn"> 
+          <img height=75px src="https://i.imgur.com/evR062H.png"> 
+        </c> 
+        <div class="page-header">
+            <h1 style="margin: -3px;">Configurations</h1>
+        </div>
+        <div class="settings-body">
+            <div class="setting-sound">
+                <div style="float: left;">Volume</div>
+                <input type="range" min="0" max="10" value="50" class="slider" id="sound">
+            </div>
+            <div class="setting-likelyhood">
+                <div style="float: left;">Goal Chances</div>
+                <input type="range" min="0" max="6" value="3" class="slider" id="chance">
+                
+            </div>
+            <div class="setting-interval">
+                <div style="float: left;">Game speed</div>
+                <input type="range" min="1" max="4" value="2" class="slider" id="interval">
+            </div>
+            <div class="setting-update">
+                <div style="float: left;margin-top: 8px;">Update teams</div>
+                <input type="button" class="update-btn" value="Update" id="update">
+            </div>
+            <div class="setting-save">
+                <button id="save-btn" class="btn-2"><span>Save</span><i class="fa fa-check" aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="/js/pwa.js"></script>
+  </body>
+</html>

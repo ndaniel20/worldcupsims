@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <link rel="manifest" href="/js/manifest.json">
+    <link rel="apple-touch-icon" href="/css/apple-touch.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#764ABC"/>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="page-container">
+        <div class="page-header">
+            <h1>World Cup Simulation</h1>
+        </div>
+        <div class="menu-body">
+            <button class="home-btn" onclick="window.location=`${location.origin}/select`;" type="button">Select</button>
+            <button class="home-btn" onclick="window.location=`${location.origin}/simulate?h=${Math.floor(Math.random() * 32)}&a=${Math.floor(Math.random() * 32)}`;" type="button">Random</button>
+            <button class="home-btn" onclick="window.location=`${location.origin}/settings`;" type="button">Settings</button>
+        </div>
+    </div>
+    <script src="/js/pwa.js"></script>
+  </body>
+</html>
