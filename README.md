@@ -4,10 +4,10 @@ This World Cup simulator allows you to simulate matches between any two internat
 
 ## Features
 
-- **Team Simulation**: Simulate matches between any two international teams.
-- **Team Ratings**: Teams are rated using a 5-star rating system based on their quality.
-- **Player Lineups**: Displays the player lineups for both teams.
-- **PWA Support**: The app includes PWA features for better performance and offline capabilities.
+• **Team Simulation**: Simulate matches between any two international teams.
+• **Team Ratings**: Teams are rated using a 5-star rating system based on their quality.
+• **Player Lineups**: Displays the player lineups for both teams.
+• **PWA Support**: The app includes PWA features for better performance and offline capabilities.
 
 ## Installation
 
@@ -27,16 +27,16 @@ This World Cup simulator allows you to simulate matches between any two internat
 
 ## Usage
 • Simulate a Match:
-    • Visit the /select route to select teams for simulation.
-    • The simulator will predict the match outcome based on the team's ratings and display the player lineups.
+    - Visit the /select route to select teams for simulation.
+    - The simulator will predict the match outcome based on the team's ratings and display the player lineups.
 • Settings:
-    • Visit the /settings route to adjust the volume, chance, and interval settings for the simulation.
+    - Visit the /settings route to adjust the volume, chance, and interval settings for the simulation.
 
 ## Data Management
 • Fetching Teams:
-    • **`mongoFind.js`** contains the logic for fetching the list of teams from the MongoDB database.
+    - **`mongoFind.js`** contains the logic for fetching the list of teams from the MongoDB database.
 • Updating Teams:
-    • **`update.js`** and **`mongoReplace.js`** handle updating the team data by fetching the latest information from an external API and replacing the old data in the MongoDB database.
+    - **`update.js`** and **`mongoReplace.js`** handle updating the team data by fetching the latest information from an external API and replacing the old data in the MongoDB database.
 
 ## Event Handling
 The **`events.js`** file manages UI interactions, such as selecting teams and starting simulations. It also includes functions for preloading images and managing the UI elements related to team selection and match simulation.
