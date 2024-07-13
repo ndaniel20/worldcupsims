@@ -4,7 +4,7 @@ This World Cup simulator allows you to simulate matches between any two internat
 
 ## Features
 
-• **Team Simulation**: Simulate matches between any two international teams. 
+• **Team Simulation**: Simulate matches between any two international teams.\n
 • **Team Ratings**: Teams are rated using a 5-star rating system based on their quality. 
 • **Player Lineups**: Displays the player lineups for both teams. 
 • **PWA Support**: The app includes PWA features for better performance and offline capabilities. 
