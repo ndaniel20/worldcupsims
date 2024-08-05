@@ -34,7 +34,7 @@ module.exports = {
         var body = await request(`https://www.fotmob.com/api/teams?id=${id}&tab=overview&type=team&timeZone=Europe/Paris`, headers)
         var data = JSON.parse(body)
         var fixtures = data.fixtures.allFixtures.fixtures
-        var lastGame = fixtures.filter(g=>(g.status.finished || g.status.ongoing) && g.tournament.name == "World Cup").reverse()[0]
+        var lastGame = fixtures.filter(g=>(g.status.finished || g.status.ongoing)).reverse()[0]
         matchInfo(lastGame.id, id)
     } 
         
@@ -42,15 +42,18 @@ module.exports = {
         var body = await request(`https://www.fotmob.com/api/matchDetails?matchId=${id}`, headers)
         var parsed = JSON.parse(body)
         var content = parsed.content
-        var selections = content.lineup.lineup
-        var lineup = selections.find(t=>t.teamId == teamID)
-        var index = selections.indexOf(lineup)
-        if (index == 0) var players = lineup.players.reverse()
-        else var players = lineup.players
+        var selections = content.lineup2
+        var homeTeam = selections.homeTeam
+        var awayTeam = selections.awayTeam
+        if (homeTeam.id == teamID) {
+            var players = homeTeam.starters
+        }
+        if (awayTeam.id == teamID) {
+            var players = awayTeam.starters
+        }
+
         players.forEach(p=>{
-            p.forEach(t=>{
-                arr.push({player: t.name.lastName, face: t.imageUrl})
-            })
+            arr.push({player: p.lastName, face: `https://www.fotmob.com/_next/image?url=https%3A%2F%2Fimages.fotmob.com%2Fimage_resources%2Fplayerimages%2F${p.id}.png&w=128&q=75`})
         })
         obj[list[i]] = arr
         i++
